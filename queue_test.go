@@ -23,6 +23,8 @@ func TestQueue(t *testing.T) {
 func TestQueueResize(t *testing.T) {
 	queue := New()
 
+	queue.Capacity()
+
 	for i := 0; i < 65; i++ {
 		queue.Enqueue(1)
 	}

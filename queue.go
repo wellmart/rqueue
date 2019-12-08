@@ -18,6 +18,11 @@ func New() *Queue {
 	}
 }
 
+// Capacity returns the capacity of queue.
+func (q *Queue) Capacity() int {
+	return len(q.items)
+}
+
 // Length returns number of elements in queue.
 func (q *Queue) Length() int {
 	return q.length
