@@ -15,7 +15,7 @@ Go 1.1 and beyond.
 
 ## Installation
 
-Use the go package manager to install rqueue.
+Use the go package manager to install Rqueue.
 
 ```bash
 go get github.com/wellmart/rqueue
@@ -41,7 +41,7 @@ func main() {
 
 ## Staying up to date
 
-To update rqueue to the latest version, use `go get -u github.com/wellmart/rqueue`.
+To update Rqueue to the latest version, use `go get -u github.com/wellmart/rqueue`.
 
 ## License
 
