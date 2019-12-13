@@ -23,7 +23,9 @@ func TestQueue(t *testing.T) {
 func TestQueueResize(t *testing.T) {
 	queue := New()
 
-	queue.Capacity()
+	if queue.Capacity() != 32 {
+		t.Error("Invalid capacity of queue")
+	}
 
 	for i := 0; i < 65; i++ {
 		queue.Enqueue(1)
