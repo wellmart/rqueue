@@ -1,4 +1,4 @@
-# Ring Queue
+# RQueue
 
 [![Build Status](https://travis-ci.org/wellmart/rqueue.svg?branch=master)](https://travis-ci.org/wellmart/rqueue)
 [![Go Report Card](https://goreportcard.com/badge/github.com/wellmart/rqueue)](https://goreportcard.com/report/github.com/wellmart/rqueue)

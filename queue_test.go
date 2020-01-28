@@ -1,5 +1,5 @@
 //
-//  Ring Queue
+//  RQueue
 //
 //  Copyright (c) 2020 Wellington Marthas
 //
